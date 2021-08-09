@@ -4,7 +4,16 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 # Introduction
 
-Angular router's navigation guards allow you to grant or remove access to certain parts of navigation.
+Angular router's navigation guards allow you to grant or remove access to certain parts of navigation. This repo includes that how can we apply the router guards in our angular projects. As guards provides the more security. This repo includes the implementation of follwoing:
+
+(i)   CanActivate
+(ii)  CanActivateChild
+(iii) CanDeactivate
+(iv)  Resolve
+
+# Usage
+
+Run `ng generate guard guardName` to crate the guard with the help of CLI. 
 
 ## Development server
 
